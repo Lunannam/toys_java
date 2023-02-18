@@ -8,11 +8,19 @@ public class toys {
     String toyName;
     Integer value;
 
+
     public toys(Integer id, String toyName, Integer value ){
         this.id = id;
         this.toyName = toyName;
         this.value = value;
       
+    }
+
+    /**
+     * @return the value
+     */
+    public Integer getValue() {
+        return value;
     }
 
     @Override
